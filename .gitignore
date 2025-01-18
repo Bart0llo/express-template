@@ -1,0 +1,45 @@
+# Node modules
+node_modules/
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# dotenv environment variables file
+.env
+
+# Optional npm cache directory
+.npm/
+
+# Coverage directory used by testing tools
+coverage/
+
+# Build output
+dist/
+build/
+
+# IDE files
+.vscode/
+.idea/
+
+# Operating system files
+.DS_Store
+Thumbs.db
+
+# Optional: If you're using Docker
+docker-compose.override.yml
+.docker/
+
+# Optional: If you are using test libraries that generate temporary files
+*.pid
+*.seed
+
+# Optional: If you're using PM2
+.pm2/
+
+# Tye application configuration (if using Tye tool)
+.tye/
+
