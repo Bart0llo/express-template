@@ -1,16 +1,17 @@
 {
   "name": "api",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "A minimal and flexible Express API template",
+  "main": "dist/index.js",
+  "type": "module",
   "scripts": {
     "dev": "tsx watch src/index.ts",
     "start": "node dist/index.js",
     "build": "tsup"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "keywords": ["express", "api", "template", "minimal", "flexible"],
+  "author": "Bart0llo <bart0llo.dev>",
+  "license": "MIT",
   "dependencies": {
     "body-parser": "^1.20.3",
     "cors": "^2.8.5",
@@ -32,3 +33,4 @@
     "typescript": "^5.7.3"
   }
 }
+
