@@ -8,7 +8,7 @@ import welcomeRoute from "@/modules/welcome/welcome.route";
 router.use("/", welcomeRoute)
 
 /* Handle 404 */
-router.use("*", (req, res) => {
+router.use("/*splat", (req, res) => {
   res.status(404).json({ message: "Route not found" });
 });
 
